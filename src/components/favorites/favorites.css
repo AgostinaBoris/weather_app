@@ -1,0 +1,27 @@
+h2 {
+  font-size: 2.5em;
+  color: rgb(0, 0, 0);
+  background-color: rgba(246, 238, 238, 0.9);
+  border-radius: 10px;
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+  margin: 2em auto;
+}
+
+.boton {
+  padding: 12px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgba(246, 238, 238, 0.8);
+  border: 5px solid grey;
+  text-transform: uppercase;
+}
+
+.favorites-list {
+  display: flex;
+  width: 100%;
+  /* flex-wrap:; */
+  justify-content: flex-start;
+  gap: 5px;
+}

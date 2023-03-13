@@ -1,0 +1,100 @@
+body {
+  margin: 50px auto;
+  padding: 0;
+  font-family: monospace;
+  box-sizing: border-box;
+
+  /* background: url('./assets/r.jpg') no-repeat center center/cover; */
+  /* Estas propiedades  ayudan a suavizar los bordes de los textos y hacerlos más legibles. */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: monospace;
+}
+/* La etiqueta code en HTML es utilizada para resaltar un fragmento de código dentro de un texto, lo que permite al usuario identificar fácilmente qué partes del texto son código. */
+
+h1 {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  padding: 30px;
+  margin: 50px;
+}
+
+.background-container {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: cover;
+  z-index: -1;
+} 
+
+.btn-bck{
+  padding:1.5em;
+  font-size: 1em;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: rgba(246, 238, 238, 0.9);
+  border: 3px solid rgb(156, 154, 154);
+  text-transform: uppercase;
+}
+.contenedor {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* FONDOS */
+.bg-1 {
+  background: url("./assets/a.jpg") no-repeat center center/cover;
+}
+
+.bg-2 {
+  background: url("./assets/b.jpg") no-repeat center center/cover;
+}
+
+.bg-3 {
+  background: url("./assets/c.jpg") no-repeat center center/cover;
+}
+
+.bg-4 {
+  background: url("./assets/d.jpg") no-repeat center center/cover;
+}
+
+.bg-5 {
+  background: url("./assets/e.jpg") no-repeat center center/cover;
+}
+
+.bg-6 {
+  background: url("./assets/f.jpg") no-repeat center center/cover;
+}
+.bg-7 {
+  background: url("./assets/g.jpg") no-repeat center center/cover;
+}
+.bg-8 {
+  background: url("./assets/h.jpg") no-repeat center center/cover;
+}
+.bg-9 {
+  background: url("./assets/i.jpg") no-repeat center center/cover;
+}
+.bg-10 {
+  background: url("./assets/j.jpg") no-repeat center center/cover;
+}
+.bg-11 {
+  background: url("./assets/k.jpg") no-repeat center center/cover;
+}
+.bg-12 {
+  background: url("./assets/l.jpg") no-repeat center center/cover;
+}
+.bg-12 {
+  background: url("./assets/m.jpg") no-repeat center center/cover;
+}
+
